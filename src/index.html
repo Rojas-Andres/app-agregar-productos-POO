@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Aplicacion de productos</title>
+</head>
+<body>
+
+    <!--Navegacion-->
+    <nav class="navbar navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            Aplicacion Productos
+        </a>
+    </nav>
+
+    <div class="container">
+        <!--Aplicacion-->
+        <!--row pt-5 padding de 5 para separar -->
+        <div id="App" class="row pt-5">
+            <!--Dividimos las 4 primeras partes en el formulario-->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Añadir un producto</h4>
+                    </div>
+                    <form id="formulario-prod" class="card-body">
+                        <!--class="form-group" para separar cada uno de los contenedores -> input-->
+                        <div class="form-group">
+                            <input type="text" id="nombre-prod" placeholder="Nombre producto" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="precio" step="0.001" placeholder="Precio" class="form-control">  
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="creacion-prod" value="2018" min="1990" placeholder="Creacion Producto" class="form-control">
+                        </div>
+                        <!--btn-block -> le colocamos todo el ancho de la tarjeta-->
+                        <input type="submit" value="Enviar" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+            </div>
+            <!--Las 8 restantes mostrando los productos agregados recordar 
+                que bootstrap tiene 12 en este caso 4+8-->
+            <div id="lista-productos"class="col-md-8">
+
+            </div>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
