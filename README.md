@@ -5,10 +5,10 @@
 
 <h3>Principal</h3>
 
-![](images/image1PNG.png)
+![](images/image1PNG.PNG)
 
 <h3>Añadiendo producto</h3>
 
-![](images/imagen2.png)
+![](images/imagen2.PNG)
 
 <strong>Todo el codigo esta en src</strong>
