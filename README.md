@@ -1,7 +1,7 @@
 # app-agregar-productos-POO
 
-# Javascript POO
-<h1>Esto es una aplicacion para agregar y eliminar productos en javascript con POO</h1>
+<h2> Javascript POO</h2>
+<h2>Esto es una aplicacion para agregar y eliminar productos en javascript con POO</h2>
 
 <h3>Principal</h3>
 
